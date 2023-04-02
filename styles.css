@@ -1,0 +1,28 @@
+body{
+    color: #181E30;
+    font-family:"ABC Repro Unlicensed Trial Regular", sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+}
+h1{
+    font-family:"ABC Repro Light Unlicensed Trial Light", sans-serif;
+    font-size: 30px;
+    line-height: 120%;
+    margin: 0px;
+}
+p {
+    font-family:"ABC Repro Unlicensed Trial Regular", sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+    margin: 0px;
+}
+p.small {
+    font-family:"ABC Repro Unlicensed Trial Regular", sans-serif;
+    font-size: 14px;
+    line-height: 150%;
+    margin: 0px;
+}
+
+.subtle{
+    color: #828389;
+}
