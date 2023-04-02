@@ -31,5 +31,7 @@ p.small {
 /* ----------- DARK MODE ----------- */
 
 @media (prefers-color-scheme: dark) {
-    body: #FFFFFF;
+    body{
+        color: #FFFFFF;;  
+    } 
 }
