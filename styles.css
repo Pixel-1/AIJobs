@@ -4,6 +4,7 @@ body{
     font-size: 16px;
     line-height: 150%;
 }
+
 h1{
     font-family:"ABC Repro Light Unlicensed Trial Light", sans-serif;
     font-size: 30px;
@@ -25,4 +26,10 @@ p.small {
 
 .subtle{
     color: #828389;
+}
+
+/* ----------- DARK MODE ----------- */
+
+@media (prefers-color-scheme: dark) {
+    body: #FFFFFF;
 }
