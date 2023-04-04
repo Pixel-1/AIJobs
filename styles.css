@@ -152,6 +152,9 @@ p.small {
         }
     }
 
+strong{
+    font-family: "ABC Repro Unlicensed Trial Bold", sans-serif;
+}
 /* ----------- DARK MODE ----------- */
 
 @media (prefers-color-scheme: dark) {
