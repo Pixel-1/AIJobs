@@ -135,13 +135,18 @@ p.small {
 }
 
 .job-title{
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 14px;
+    line-height: 20px;
 }
 
     @media (max-width:768px) {
         .posted-on{
             text-align: left;
+        }
+
+        .job-title{
+            font-size: 16px;
+            line-height: 24px;
         }
     }
 
