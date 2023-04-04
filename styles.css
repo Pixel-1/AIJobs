@@ -128,6 +128,9 @@ p.small {
     text-decoration: none;
     color: #181E30;
 }
+    a.pill:hover{
+        background-color: #FBFBFD;
+    }
 
 .large-desktop{
     display: none;
@@ -173,7 +176,6 @@ strong{
     }
 
     .pill, a.pill{
-        color:#FBFBFD;
     }
 
     .job-row{
@@ -183,7 +185,7 @@ strong{
         .job-row:hover{
             background-color:rgba(255,255,255,0.02);
         }
-        
+
     .button{
         background-color: #FBFBFD;
         color: #181E30;
