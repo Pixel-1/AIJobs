@@ -137,6 +137,8 @@ p.small {
 .job-title{
     font-size: 14px;
     line-height: 20px;
+    font-family: "ABC Repro Unlicensed Trial Regular", sans-serif;
+    margin: 0px;
 }
 
     @media (max-width:768px) {
