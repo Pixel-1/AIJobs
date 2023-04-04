@@ -155,6 +155,12 @@ p.small {
 strong{
     font-family: "ABC Repro Unlicensed Trial Bold", sans-serif;
 }
+
+.description-container{
+    font-size: 16px;
+    line-height: 24px;
+}
+
 /* ----------- DARK MODE ----------- */
 
 @media (prefers-color-scheme: dark) {
