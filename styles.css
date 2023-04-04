@@ -51,6 +51,12 @@ p.small {
         color: #828389;
     }
 
+    @media (max-width:414px) {
+        .job-row{
+            flex-direction: column;
+        }
+    }
+
 .logo-container{
     display: flex;
     width: 100%;
