@@ -51,6 +51,16 @@ p.small {
         color: #828389;
     }
 
+.logo-container{
+    display: flex;
+    width: 100%;
+    max-width: 220px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 16px;
+}
+
 .button{
     padding: 10px 20px;
     background-color: #181E30;
@@ -92,6 +102,9 @@ p.small {
     display: flex;
     line-height: 145%;
 }
+.large-desktop{
+    display: none;
+}
 
 /* ----------- DARK MODE ----------- */
 
@@ -119,4 +132,21 @@ p.small {
         border-color: rgba(255,255,255,0.04);
     }
 
+}
+
+/* ----------- MOBILE ----------- */
+
+@media (max-width:1199px) {
+    .no-mobile{
+        display: none;
+    }
+}
+
+/* ----------- LARGE ----------- */
+
+
+@media (min-width:1399px) {
+    .large-desktop{
+        display: block;
+    }
 }
