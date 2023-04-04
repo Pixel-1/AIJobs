@@ -68,6 +68,11 @@ p.small {
     gap: 16px;
 }
 
+    .logo-container img{
+        width: 32px;
+        height: 32px;
+    }   
+
     @media (max-width:768px) {
         .logo-container{
             flex-direction: column;
@@ -76,6 +81,7 @@ p.small {
 
         .logo-container img{
             width: 56px;
+            height: 56px;
         }
     }
 
