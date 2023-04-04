@@ -130,6 +130,21 @@ p.small {
     display: none;
 }
 
+.posted-on{
+    text-align: right;
+}
+
+.job-title{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+    @media (max-width:768px) {
+        .posted-on{
+            text-align: left;
+        }
+    }
+
 /* ----------- DARK MODE ----------- */
 
 @media (prefers-color-scheme: dark) {
