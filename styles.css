@@ -117,7 +117,7 @@ p.small {
     gap: 8px;
 }
 
-.pill {
+.pill, a.pill {
     font-size: 14px;
     background-color: white;
     border-radius: 100px;
