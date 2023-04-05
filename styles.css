@@ -171,6 +171,26 @@ strong{
     font-family: "ABC Repro Unlicensed Trial Regular", sans-serif;
 }
 
+
+
+/* ----------- JOB DETAILS ----------- */
+.details-container{
+    display: flex;
+    width: 100%;
+    alignItems: flex-start;
+    flexDirection: row;
+    justifyContent: center;
+    gap: 64px;
+}
+
+    @media (max-width:768px) {
+        .details-container {
+            flex-direction: column;
+            gap: 48px;
+            justify-content: flex-start;
+        }
+    }
+
 /* ----------- DARK MODE ----------- */
 
 @media (prefers-color-scheme: dark) {
