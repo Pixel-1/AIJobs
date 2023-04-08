@@ -135,6 +135,11 @@ p.small {
         background-color: #FBFBFD;
     }
 
+.pill.strong{
+    background-color: #FBFBFD;
+}
+
+
 .large-desktop{
     display: none;
 }
@@ -193,7 +198,7 @@ strong{
         .apply-button{
             position: fixed;
             bottom: 24px;
-            width: 100%;
+            calc: (100% - 48px);
         }
     }
 
@@ -226,7 +231,9 @@ strong{
     .pill{
         border-color: rgba(255,255,255,0.04);
     }
-
+    .pill.strong{
+        background-color: rgba(255,255,255,0.04);
+    }
 }
 
 /* ----------- MOBILE ----------- */
