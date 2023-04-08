@@ -184,14 +184,14 @@ strong{
     gap: 64px;
 }
 
-    @media (max-width:768px) {
+    @media (max-width:1199px) {
         .details-container {
             flex-direction: column-reverse;
             gap: 48px;
             justify-content: flex-start;
         }
         .apply-button{
-            display: fixed;
+            position: fixed;
             bottom: 24px;
             width: 100%;
         }
