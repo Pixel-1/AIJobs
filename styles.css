@@ -137,6 +137,7 @@ p.small {
 
 .pill.strong{
     background-color: #FBFBFD;
+    border-color: none;
 }
 
 
@@ -198,7 +199,7 @@ strong{
         .apply-button{
             position: fixed;
             bottom: 24px;
-            calc: (100% - 48px);
+            width: calc(100% - 48px);
         }
     }
 
