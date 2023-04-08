@@ -71,6 +71,7 @@ p.small {
     .logo-container img{
         width: 32px;
         height: 32px;
+        border: 1px solid #EEEFF1;
     }   
 
     @media (max-width:768px) {
@@ -235,6 +236,10 @@ strong{
     .pill.strong{
         background-color: rgba(255,255,255,0.04);
     }
+
+    .logo-container img{
+        border: 1px solid rgba(255,255,255,0.04);
+    }  
 }
 
 /* ----------- MOBILE ----------- */
