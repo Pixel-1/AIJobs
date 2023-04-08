@@ -131,6 +131,7 @@ p.small {
     line-height: 145%;
     text-decoration: none;
     color: #181E30;
+    transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
     a.pill:hover{
         background-color: #FBFBFD;
@@ -233,7 +234,7 @@ strong{
         color: #FBFBFD;
     }
         .pill:hover, a.pill:hover{
-            border-color: rgba(255,255,255,0.064);
+            border-color: rgba(255,255,255,0.24);
             background-color: transparent;
             color: #FBFBFD;
         }
