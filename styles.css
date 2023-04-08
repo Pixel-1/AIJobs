@@ -234,7 +234,7 @@ strong{
     }
         .pill:hover, a.pill:hover{
             border-color: rgba(255,255,255,0.064);
-            background-color: none;
+            background-color: transparent;
             color: #FBFBFD;
         }
     .pill.strong{
