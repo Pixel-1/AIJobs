@@ -227,11 +227,16 @@ strong{
     .divider{
         background-color: rgba(255,255,255,0.04);
     }
-    .pill{
+    .pill, a.pill{
         border-color: rgba(255,255,255,0.04);
         background-color: none;
         color: #FBFBFD;
     }
+        .pill:hover, a.pill:hover{
+            border-color: rgba(255,255,255,0.064);
+            background-color: none;
+            color: #FBFBFD;
+        }
     .pill.strong{
         background-color: rgba(255,255,255,0.04);
     }
