@@ -211,9 +211,6 @@ strong{
         color: #FBFBFD;  
     }
 
-    .pill, a.pill{
-    }
-
     .job-row{
         border-color: rgba(255,255,255,0.04);
     }
@@ -232,6 +229,8 @@ strong{
     }
     .pill{
         border-color: rgba(255,255,255,0.04);
+        background-color: none;
+        color: #FBFBFD;
     }
     .pill.strong{
         background-color: rgba(255,255,255,0.04);
