@@ -180,6 +180,7 @@ strong{
     alignItems: flex-start;
     flexDirection: row;
     justifyContent: center;
+    flex-wrap: wrap;
     gap: 64px;
 }
 
