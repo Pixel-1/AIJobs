@@ -92,12 +92,18 @@ p.small {
     text-decoration: none;
     color: #FBFBFD;
     border-radius: 100px;
-    width: 100%;
     text-align: center;
     font-family:"ABC Repro Unlicensed Trial Regular", sans-serif;
     font-size: 16px;
     line-height: 24px;
 }
+    .button.full-width{
+        width: 100%;
+    }
+    .button.secondary{
+        background-color: #EEF4FF;
+        color: #2460D3;
+    }
 
 .spacer{
     display: block;
