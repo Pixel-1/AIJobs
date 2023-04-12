@@ -24,6 +24,10 @@ p.small {
     margin: 0px;
 }
 
+    a:visited{
+        color: #828389;
+    }
+
 .subtle{
     color: #828389;
 }
