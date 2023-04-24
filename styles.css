@@ -24,6 +24,10 @@ p.small {
     margin: 0px;
 }
 
+    a:visited{
+        color: #828389;
+    }
+
 .subtle{
     color: #828389;
 }
@@ -206,7 +210,7 @@ strong{
             gap: 48px;
             justify-content: flex-start;
         }
-        .apply-button{
+        .apply-button.button.full-width, .apply-button{
             position: fixed;
             bottom: 24px;
             width: calc(100% - 48px);
